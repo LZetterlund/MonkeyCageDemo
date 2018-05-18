@@ -1,0 +1,115 @@
+        label, span{
+        font-family: Verdana, Roboto, sans-serif;
+      	font-size: 16px;
+      	padding-right:2em;
+        padding-left:2em;
+        }
+
+        body{
+            background-color: #73AD21;       
+        }
+
+        select, input{
+            background-color: #d3d3d3;
+            font-family: Verdana, Roboto, sans-serif;
+        }
+
+        p{
+            font-family: Roboto, Arial, sans-serif;
+            padding-bottom: 0;
+            margin-bottom: 0; 
+            font-weight: 900;
+        }   
+
+        .cage{
+            visibility: hidden;
+        }
+        
+        #titleText{
+            border-radius: 25px;
+            background: #FFFFFF;
+            padding 20px;
+            font-family: Roboto, Arial, sans-serif;
+            position: fixed;
+            font-size: 400%;
+            z-index: 103;
+            left: 26%;
+            top: 15%;
+        }
+        
+        #titleSubtext{
+            border-radius: 25px;
+            background: #FFFFFF;
+            padding: 15px;
+            margin: 20px;
+            font-family: Roboto, Arial, sans-serif;
+            position: fixed;
+            font-size: 250%;
+            z-index: 103;
+            left: 25%;
+            top: 30%;
+        }
+        
+        #roomEnter{
+            position: fixed;
+            font-size: 30px;
+            z-index: 103;
+            left: 25%;
+            top: 60%;
+            margin: 20px;
+        }
+        
+        #username{
+            position: fixed;
+            margin-left: 20px;
+            font-size: 30px;
+            z-index: 103;
+            left: 25%;
+            top: 50%;
+        }
+
+        
+        #cageCover{
+            width: 100%;
+            height: 100%;
+            background-color:#132D3F;
+            position: fixed;
+            padding: 0;
+            margin: 0;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+
+        h1.cage{
+            border-radius: 25px;
+            background: #FFFFFF;
+            padding: 15px;
+            margin: 20px;
+            font-family: Roboto, Arial, sans-serif;
+            position: fixed;
+            font-size: 250%;
+            left: 25%;
+            top: 10%;
+        }
+
+        #usernameList{
+            border-radius: 25px;
+            background: #FFFFFF;
+            padding: 15px;
+            margin: 20px;
+            font-family: Roboto, Arial, sans-serif;
+            position: fixed;
+            font-size: 250%;
+            left: 35%;
+            top: 20%;
+            overflow: scroll;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        p:nth-child(even) {
+            border-radius: 25px;
+            background: #d3d3d3;
+            padding:10px;
+        }

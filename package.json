@@ -1,0 +1,42 @@
+{
+  "name": "MonkeyCageDemo",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\"",
+    "build": "babel ./client --out-file ./hosted/client.js",
+    "watch": "babel --watch ./client --out-file ./hosted/client.js",
+    "nodemon": "nodemon --watch ./src ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LZetterlund/MonkeyCageDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LZetterlund/MonkeyCageDemo/issues"
+  },
+  "homepage": "https://github.com/LZetterlund/MonkeyCageDemo#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4",
+    "xxhashjs": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.17.1"
+  }
+}
